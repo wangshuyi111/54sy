@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "碎碎念/序言/index.md",
+                "file": "java/Java/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "碎碎念/序言/index.md",
+                "file": "java/Java/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -174,7 +174,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -182,11 +181,17 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "e02c96d70c38b83a",
   "lastOpenFiles": [
+    "java/Java/images/abe6413ba73af943b07afb578e9922f0.jpg",
+    "java/Java/images",
+    "java/Java/index.md",
+    "java/Java",
+    "java",
     "碎碎念/序言/index.md.tmp.44852.c99595b30692",
     "碎碎念/序言/index.md",
     "moss_model/new-post.js.tmp.17048.1b75847c7c53",
@@ -197,10 +202,6 @@
     "的声波传播/ocdbsob",
     "的声波传播",
     "moss_model/new-post.js.tmp.17048.570d8c291c50",
-    "moss_model/new-post.js.tmp.17048.07a3e9b54133",
-    "新",
-    "碎碎念/ckjsck",
-    "moss_model/new-post.js.tmp.17048.066827457a80",
     "我的新的/test/index.md",
     "碎碎念/青藤/index.md",
     "玄机靶场/青藤篇/index.md",
@@ -222,7 +223,6 @@
     "玄机靶场/未命名/未命名.md",
     "碎碎念/obsidian测试/index.md",
     "玄机靶场/未命名/index.md",
-    "碎碎念/obsidian测试/index1.md",
     "碎碎念/obsidian测试/images/Pasted image 20260711031146.png",
     "碎碎念/images/Pasted image 20260711031146.png"
   ]
