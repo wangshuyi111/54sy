@@ -1,0 +1,265 @@
+{
+  "main": {
+    "id": "439a71e0c2234f30",
+    "type": "split",
+    "children": [
+      {
+        "id": "64d54b133b18bfa4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e02c96d70c38b83a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "java/Java/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "12d90b2cabf360fd",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          },
+          {
+            "id": "53c8cbdaab438b0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "study/Windows系统盘下目录及文件详解/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "05f5bcf6d636bbd7",
+    "type": "split",
+    "children": [
+      {
+        "id": "88425c564a6b7ccb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8dd29e5ae75a1a5b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "d151e09e96173ecf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "51b8c2ffe5d6c0cd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "75ea0d44d267dc00",
+    "type": "split",
+    "children": [
+      {
+        "id": "a854f9dcf1f23c42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7252011faa02dfd0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "碎碎念/序言/index.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "index 的反向链接列表"
+            }
+          },
+          {
+            "id": "1e9afd8729eae8d3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "欢迎.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "欢迎 的出链列表"
+            }
+          },
+          {
+            "id": "59e01dd085504b9d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "dc3451295e86e78d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "bc34185c78666804",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "study/Windows系统盘下目录及文件详解/index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "index 的大纲"
+            }
+          },
+          {
+            "id": "3201eddec7ab6190",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "3201eddec7ab6190",
+  "lastOpenFiles": [
+    "study/Windows系统盘下目录及文件详解.md",
+    "study/Windows系统盘下目录及文件详解/index.md",
+    "study/Windows系统盘下目录及文件详解",
+    "study",
+    "java/Java/index.md",
+    "java/Java/images/abe6413ba73af943b07afb578e9922f0.jpg",
+    "java/Java/images",
+    "java/Java",
+    "java",
+    "碎碎念/序言/index.md.tmp.44852.c99595b30692",
+    "碎碎念/序言/index.md",
+    "moss_model/new-post.js.tmp.17048.1b75847c7c53",
+    "moss_model/new-post.js.tmp.17048.496fbec6930d",
+    "moss_model/new-post.js.tmp.17048.0ec8e5a6c9d7",
+    "碎碎念/ckjsck/index.md",
+    "的声波传播/ocdbsob/index.md",
+    "的声波传播/ocdbsob",
+    "我的新的/test/index.md",
+    "碎碎念/青藤/index.md",
+    "玄机靶场/青藤篇/index.md",
+    "碎碎念/青藤篇/index.md",
+    "博客/我的/index.md",
+    "碎碎念/测试/index.md",
+    "碎碎念/我的/index.md",
+    "碎碎念/tttt.md",
+    "碎碎念/test/tets.md",
+    "碎碎念/test/index.md",
+    "碎碎念/测试时.md",
+    "碎碎念/你的.md",
+    "碎碎念/测试.md",
+    "碎碎念/测.md",
+    "碎碎念/我的.md",
+    "玄机靶场/test.md",
+    "玄机靶场/index.md",
+    "_index.md",
+    "玄机靶场/未命名/未命名.md",
+    "碎碎念/obsidian测试/index.md",
+    "碎碎念/obsidian测试/images/Pasted image 20260711031146.png",
+    "碎碎念/images/Pasted image 20260711031146.png"
+  ]
+}
