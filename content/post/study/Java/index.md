@@ -2,7 +2,7 @@
 title: Java
 description: ""
 date: 2026-07-12T22:14:50+08:00
-lastmod: 2026-07-12T22:17:12+08:00
+lastmod: 2026-08-14T22:36:38+08:00
 draft: false
 slug: MuvosL-2026-001
 categories:
@@ -10,5 +10,5 @@ categories:
 tags:
   - exercise
 ---
-hiiiii
-![[abe6413ba73af943b07afb578e9922f0.jpg]]
+# 一、Java基础语法
+## 1.变量类型
