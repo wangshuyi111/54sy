@@ -1,0 +1,26 @@
+baseURL: 'https://wangshuyi111.github.io/54sy/'
+title: 'vein'
+locale: 'zh-CN'
+hasCJKLanguage: true
+enableGitInfo: true
+
+permalinks:
+  post: /post/:slug/
+
+ignoreFiles:
+  - '\.obsidian'
+  - '\.trash'
+  - 'moss_model'
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - Algolia
+
+outputFormats:
+  Algolia:
+    baseName: algolia
+    isPlainText: true
+    mediaType: application/json
+    notAlternative: true
