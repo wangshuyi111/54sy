@@ -2,7 +2,7 @@
 title: mysql
 description: ""
 date: 2026-08-14T21:32:37+08:00
-lastmod: 2026-08-14T21:42:22+08:00
+lastmod: 2026-08-17T22:41:27+08:00
 draft: false
 slug: MuvosL-2026-003
 categories:
@@ -67,3 +67,34 @@ DESC 表名，显示每个字段的类型、是否为空、默认值等
 COUNT（* ） 统计行数
 ## 20.抽查数据
 SELECT* 查询所有字段，LIMIT限制返回行数![[Pasted image 20260814184313.png]]![[Pasted image 20260814184320.png]]
+# insert语句配套知识点整理
+## 一、insert基本语法
+```
+INSERT INTO 表名 (字段1, 字段2, ...) VALUES (值1, 值2, ...);
+```
+## 二、数据类型的写入规则
+```
+字符串必须用单引号
+INSERT INTO user (username, gender) VALUES ('Li Shi', 'female');
+数字不需要引号
+INSERT INTO user (age, status) VALUES (26, 1);
+日期也用单引号
+INSERT INTO orders (create_time) VALUES ('2026-04-10');
+```
+```
+金额的正确用法
+INSERT INTO goods (gname, price, stock, type) VALUES ('Jeans', 119.00, 600, 'clothing');
+```
+DECIMAL(8,2) 表示总共 8 位数字，小数点后保留 2 位。写入 119 或 119.00 都可以，MySQL 会自动补齐为 119.00。
+```
+日期的标准格式
+date 2026-04-10
+INSERT INTO orders (create_time) VALUES ('2026-04-10');
+```
+# 三、批量插入
+```一次插入两个用户
+INSERT INTO user (username, age, gender, phone, status) VALUES
+('Wang Yiyi', 20, 'male',   '13900001111', 1),   ← 第1行数据，注意末尾逗号
+('Liu Erer',  21, 'female', '13900002222', 1);    ← 最后一行，末尾用分号
+```
+![[Pasted image 20260817224542.png]]

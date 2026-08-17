@@ -2,7 +2,7 @@
 title: Java
 description: ""
 date: 2026-07-12T22:14:50+08:00
-lastmod: 2026-08-15T11:26:49+08:00
+lastmod: 2026-08-16T20:25:48+08:00
 draft: false
 slug: MuvosL-2026-001
 categories:
@@ -92,4 +92,117 @@ n = 1 ^ 1; // 0
 | %f  | 格式化输出浮点数         |
 | %e  | 格式化输出科学计数法表示的浮点数 |
 | %s  | 格式化字符串           |
+## 5.2if条件判断
+```
+// 从小到大依次判断：
+if (条件) {
+    // ...
+} else if (条件) {
+    // ...
+} else {
+    // ...
+}
+```
+## 5.3switch多重选择
+```
+switch (option) {
+case 3:
+    ...
+    break;
+case 2:
+    ...
+    break;
+case 1:
+    ...
+    break;
+} 
+```
+计算结果必须是整型、字符串或枚举类型。
+## 5.4while循环
+```
+while (条件表达式) {
+    循环语句
+}
+```
+先判断循环条件是否满足，再执行循环语句
+循环可能一次都不执行
+## 5.5do while循环
+```
+do {
+    执行循环语句
+} while (条件表达式);
+```
+先执行循环，再判断条件
+循环会至少执行一次
+## 5.6for循环
+```
+for (初始条件; 循环检测条件; 循环后更新计数器) {
+    // 执行语句
+}
+```
+## 5.7break和continue
+break语句通常都是配合if语句使用，break语句总是跳出自己所在的那一层循环
+conntinue语句可以提前结束本次循环，通常配合if，在满足条件时提前结束本次循环
+# 6.数组
+## 6.1遍历数组
+遍历数组可以用for循环
+```
+// 遍历数组
+public class Main {
+    public static void main(String[] args) {
+        int[] ns = { 1, 4, 9, 16, 25 };
+        for (int i=0; i<ns.length; i++) {
+            int n = ns[i];
+            System.out.println(n);
+        }
+    }
+}
+```
+![[Pasted image 20260816173926.png|334]]
 
+还有一种是使用for each循环，直接迭代数组的每个元素
+```
+// 遍历数组
+public class Main {
+    public static void main(String[] args) {
+        int[] ns = { 1, 4, 9, 16, 25 };
+        for (int n : ns) {
+            System.out.println(n);
+        }
+    }
+}
+```
+![[Pasted image 20260816174505.png]]
+## 6.2数组排序
+6.2.1冒泡排序
+特点：每一轮循环后，最大的一个数被交换到末尾，因此，下一轮循环就可以“刨除”最后的数，每一轮循环都比上一轮循环的结束位置靠前一位。
+```
+// 冒泡排序
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] ns = { 28, 12, 89, 73, 65, 18, 96, 50, 8, 36 };
+        // 排序前:
+        System.out.println(Arrays.toString(ns));
+        for (int i = 0; i < ns.length - 1; i++) {
+            for (int j = 0; j < ns.length - i - 1; j++) {
+                if (ns[j] > ns[j+1]) {
+                    // 交换ns[j]和ns[j+1]:
+                    int tmp = ns[j];
+                    ns[j] = ns[j+1];
+                    ns[j+1] = tmp;
+                }
+            }
+        }
+        // 排序后:
+        System.out.println(Arrays.toString(ns));
+    }
+}
+```
+## 6.3多维数组
+二维数组是数组的数组
+三维数组是二维数组的数组
+## 6.4 命令行参数
+命令行参数类型是`String[]`数组；
+命令行参数由JVM接收用户输入并传给`main`方法；
