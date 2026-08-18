@@ -2,7 +2,7 @@
 title: Java
 description: ""
 date: 2026-07-12T22:14:50+08:00
-lastmod: 2026-08-16T20:25:48+08:00
+lastmod: 2026-08-18T22:19:04+08:00
 draft: false
 slug: MuvosL-2026-001
 categories:
@@ -206,3 +206,52 @@ public class Main {
 ## 6.4 命令行参数
 命令行参数类型是`String[]`数组；
 命令行参数由JVM接收用户输入并传给`main`方法；
+# 二、面向对象
+## 1.方法
+1.1private方法
+一个class可以包含多个field，例如
+```
+class Person {
+    public String name;
+    public int age;
+}
+```
+为了避免外部代码直接去访问field，我们可以用private修饰field，拒绝外部访问
+```
+class Person {
+    private String name;
+    private int age;
+}
+```
+1.2this变量
+this始终指向当前实例，通过this.field就可以访问当前实例的字段。
+如果没有命名冲突，可以省略this
+```
+class Person {
+    private String name;
+
+    public String getName() {
+        return name; // 相当于this.name
+    }
+}
+```
+如果有局部变量和字段重名，那么局部变量优先级更高，就必须加上this
+```
+class Person {
+    private String name;
+
+    public void setName(String name) {
+        this.name = name; // 前面的this不可少，少了就变成局部变量name了
+    }
+}
+```
+1.3方法参数
+方法参数用于接收传递给方法的变量值。调用方法时，必须严格按照参数的定义传递。
+```
+class Person {
+    ...
+    public void setNameAndAge(String name, int age) {
+        ...
+    }
+}
+```
