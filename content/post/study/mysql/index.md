@@ -2,12 +2,13 @@
 title: mysql
 description: ""
 date: 2026-08-14T21:32:37+08:00
-lastmod: 2026-08-18T20:34:53+08:00
+lastmod: 2026-08-20T19:49:48+08:00
 draft: false
 slug: MuvosL-2026-003
 categories:
   - study
 tags:
+  - study
 ---
 # 一、创建数据库
 
@@ -118,4 +119,48 @@ INSERT INTO user (username, age, gender, phone, status) VALUES
 ('Wang Yiyi', 20, 'male',   '13900001111', 1),   ← 第1行数据，注意末尾逗号
 ('Liu Erer',  21, 'female', '13900002222', 1);    ← 最后一行，末尾用分号
 ```
-![[Pasted image 20260817224542.png]]
+![[Pasted image 20260817224542.png
+# 四、UPDATE基本语法
+update的完整结构
+```
+UPDATE 表名 
+SET 字段1 = 新值1, 字段2 = 新值2
+WHERE 条件;
+```
+修改一个字段，只改价格
+```
+UPDATE goods SET price = 3799 WHERE gname = 'Huawei Phone';
+```
+修改多个字段，逗号分隔
+```
+UPDATE user SET age = 20, status = 1 WHERE username = 'wangwu';
+```
+用原值参与计算
+```
+UPDATE goods SET price = price + 10 WHERE type = 'clothing';
+```
+直接赋值
+```
+UPDATE goods SET stock = 500 WHERE stock < 300; 
+UPDATE goods SET price = 3799 WHERE gname = 'Huawei Phone';
+```
+IN关键字
+```
+-- 假设要把所有 digital 和 clothing 分类改价
+UPDATE goods SET price = price * 0.9
+WHERE type IN ('digital', 'clothing');
+```
+SELECT验证
+先看要改哪些
+```
+SELECT * FROM user WHERE username = 'wangwu';
+```
+再update
+```
+UPDATE user SET age = 20, status = 1 WHERE username = 'wangwu';
+```
+再SELECT确认改对了
+```
+SELECT * FROM user WHERE username = 'wangwu';
+```
+![[Pasted image 20260820195412.png]]

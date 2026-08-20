@@ -2,11 +2,12 @@
 title: "15"
 description: ""
 date: 2026-08-16T20:26:13+08:00
-lastmod: 2026-08-16T20:29:49+08:00
+lastmod: 2026-08-18T22:21:57+08:00
 draft: true
 slug: MuvosL-2026-005
 categories:
   - study
+  - log
 tags:
 ---
 1.今天学习了switch多重选择的基本语句，

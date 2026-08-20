@@ -64,17 +64,21 @@
             }
           },
           {
-            "id": "12d90b2cabf360fd",
+            "id": "5fa553ff3df125ac",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "study/mysql/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -250,13 +254,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ce01de0f8cb5d8fd",
+  "active": "5fa553ff3df125ac",
   "lastOpenFiles": [
+    "study/mysql/images/Pasted image 20260820195412.png",
+    "log/18/index.md",
+    "log/15/index.md",
+    "log/17/index.md",
     "study/mysql/index.md",
     "study/Java/index.md",
+    "log/18",
     "study/mysql/images/Pasted image 20260817224542.png",
-    "log/17/index.md",
-    "log/15/index.md",
     "log/17",
     "log/8/14/index.md",
     "log/15",
@@ -279,7 +286,6 @@
     "study/Windows系统盘下目录及文件详解",
     "study",
     "study/Java/images/abe6413ba73af943b07afb578e9922f0.jpg",
-    "study/Java/images",
     "碎碎念/序言/index.md",
     "碎碎念/ckjsck/index.md",
     "的声波传播/ocdbsob/index.md",
@@ -293,7 +299,6 @@
     "碎碎念/tttt.md",
     "碎碎念/test/tets.md",
     "碎碎念/test/index.md",
-    "碎碎念/测试时.md",
     "碎碎念/obsidian测试/images/Pasted image 20260711031146.png",
     "碎碎念/images/Pasted image 20260711031146.png"
   ]
