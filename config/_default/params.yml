@@ -21,10 +21,10 @@ menu:
 mainSections: ["post"]
 # 年，月，日及时间的格式化样式
 # Format style for year,month,date & time
-yearFormat: "2026"
-monthFormat: "2026-07"
-dateFormat: "2026-07-12"
-timeFormat: "2026-07-12 15:04:05"
+yearFormat: "2006"
+monthFormat: "2006-01"
+dateFormat: "2006-01-02"
+timeFormat: "2006-01-02 15:04:05"
 
 author: 54sy
 email: ""
@@ -178,10 +178,12 @@ rss:
   showCopyright: false   # If true, add copyright to the end of article.
 
 # Sort order configuration
-# Available values: default, date, date-reverse, weight, weight-reverse
+# Available values: default, date, date-reverse, lastmod, lastmod-reverse, weight, weight-reverse
 # default: hugo's default sort order for page collections, see https://gohugo.io/quick-reference/page-collections/#sort
 # date: sorted by date in ascending order (oldest first)
 # date-reverse: sorted by date in descending order (newest first)
+# lastmod: sorted by last modified time in ascending order (oldest first)
+# lastmod-reverse: sorted by last modified time in descending order (newest first)
 # weight: sorted by weight in ascending order
 # weight-reverse: sorted by weight in descending order
 sort_order:
@@ -189,7 +191,7 @@ sort_order:
     category: date-reverse # controlled by categories_weight
     tag: date-reverse # controlled by tags_weight
   archive: date-reverse # controlled by weight
-  home: default # controlled by weight
+  home: lastmod-reverse # controlled by weight
 
 # Pagination
 paginate:
@@ -477,9 +479,9 @@ beaudar:
 
 algolia_search:
   enable: false
-  appID: JD1L8Q7IF8
-  apiKey: d47e598524b1f0d0213768bbd2fdbbd1
-  indexName: moss-vein
+  appID:
+  apiKey:
+  indexName:
   hits:
     per_page: 10
 

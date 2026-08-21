@@ -93,7 +93,7 @@ module.exports = async (params) => {
     const dateStr = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}T${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}${sign}${pad(Math.floor(Math.abs(offset) / 60))}:${pad(Math.abs(offset) % 60)}`;
     const year = now.getFullYear();
 
-    const slugPattern = /^MuvosL-(\d{4})-(\d{3})$/;
+    const slugPattern = /^54sy-(\d{4})-(\d{3})$/;
     let maxNum = 0;
     for (const file of app.vault.getMarkdownFiles()) {
         const cache = app.metadataCache.getFileCache(file);
@@ -105,7 +105,7 @@ module.exports = async (params) => {
             }
         }
     }
-    const nextSlug = `MuvosL-${year}-${String(maxNum + 1).padStart(3, '0')}`;
+    const nextSlug = `54sy-${year}-${String(maxNum + 1).padStart(3, '0')}`;
 
     content = content.replace(/\{\{date:.*?\}\}/g, dateStr);
     content = content.replace(/\{\{title\}\}/g, articleName.trim());

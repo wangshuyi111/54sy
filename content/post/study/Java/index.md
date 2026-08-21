@@ -2,24 +2,25 @@
 title: Java
 description: ""
 date: 2026-07-12T22:14:50+08:00
-lastmod: 2026-08-18T22:19:04+08:00
+lastmod: 2026-08-21T16:23:43+08:00
 draft: false
-slug: MuvosL-2026-001
+slug: 54sy-2026-001
 categories:
-  - java
+  - study
 tags:
   - exercise
+  - java基础
 ---
 # 一、Java基础语法
 ## 1.Java程序基本结构
 1.1class是程序的基本单位，是一个关键字，后面跟着的是类名Hello，类名必须以英文字母开头，后接字母，数字和下划线的组合。
-```
+```java
 public class Hello { // 类名是Hello
     // ...
 } // class定义结束
 ```
 1.2public是访问修饰符，表示该class是公开的，方法名是main，返回值是void，表示没有任何返回值。public除了修饰class外，也可以修饰方法，而关键字static是另一个修饰符，表示静态方法，Java入口程序规定的方法必须是静态方法，方法名必须为main，括号内的参数必须是String数组。
-```
+```java
 public class Hello {
     public static void main(String[] args) { // 方法名是main
         // 方法代码...
@@ -93,7 +94,7 @@ n = 1 ^ 1; // 0
 | %e  | 格式化输出科学计数法表示的浮点数 |
 | %s  | 格式化字符串           |
 ## 5.2if条件判断
-```
+```java
 // 从小到大依次判断：
 if (条件) {
     // ...
@@ -104,7 +105,7 @@ if (条件) {
 }
 ```
 ## 5.3switch多重选择
-```
+```java
 switch (option) {
 case 3:
     ...
@@ -119,7 +120,7 @@ case 1:
 ```
 计算结果必须是整型、字符串或枚举类型。
 ## 5.4while循环
-```
+```java
 while (条件表达式) {
     循环语句
 }
@@ -127,7 +128,7 @@ while (条件表达式) {
 先判断循环条件是否满足，再执行循环语句
 循环可能一次都不执行
 ## 5.5do while循环
-```
+```java
 do {
     执行循环语句
 } while (条件表达式);
@@ -135,7 +136,7 @@ do {
 先执行循环，再判断条件
 循环会至少执行一次
 ## 5.6for循环
-```
+```java
 for (初始条件; 循环检测条件; 循环后更新计数器) {
     // 执行语句
 }
@@ -146,7 +147,7 @@ conntinue语句可以提前结束本次循环，通常配合if，在满足条件
 # 6.数组
 ## 6.1遍历数组
 遍历数组可以用for循环
-```
+```java
 // 遍历数组
 public class Main {
     public static void main(String[] args) {
@@ -161,7 +162,7 @@ public class Main {
 ![[Pasted image 20260816173926.png|334]]
 
 还有一种是使用for each循环，直接迭代数组的每个元素
-```
+```java
 // 遍历数组
 public class Main {
     public static void main(String[] args) {
@@ -176,7 +177,7 @@ public class Main {
 ## 6.2数组排序
 6.2.1冒泡排序
 特点：每一轮循环后，最大的一个数被交换到末尾，因此，下一轮循环就可以“刨除”最后的数，每一轮循环都比上一轮循环的结束位置靠前一位。
-```
+```java
 // 冒泡排序
 import java.util.Arrays;
 
@@ -208,25 +209,25 @@ public class Main {
 命令行参数由JVM接收用户输入并传给`main`方法；
 # 二、面向对象
 ## 1.方法
-1.1private方法
+### 1.1private方法
 一个class可以包含多个field，例如
-```
+```java
 class Person {
     public String name;
     public int age;
 }
 ```
 为了避免外部代码直接去访问field，我们可以用private修饰field，拒绝外部访问
-```
+```java
 class Person {
     private String name;
     private int age;
 }
 ```
-1.2this变量
+### 1.2this变量
 this始终指向当前实例，通过this.field就可以访问当前实例的字段。
 如果没有命名冲突，可以省略this
-```
+```java
 class Person {
     private String name;
 
@@ -245,9 +246,9 @@ class Person {
     }
 }
 ```
-1.3方法参数
+### 1.3方法参数
 方法参数用于接收传递给方法的变量值。调用方法时，必须严格按照参数的定义传递。
-```
+```java
 class Person {
     ...
     public void setNameAndAge(String name, int age) {

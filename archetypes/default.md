@@ -3,10 +3,10 @@
 title: "{{ replace .File.ContentBaseName "-" " " | title }}"
 
 # ===== URL 标识（必填）=====
-# 格式: MuvosL-年份-序号
-# 例如: MuvosL-2026-001、MuvosL-2026-002
+# 格式: 54sy-年份-序号
+# 例如: 54sy-2026-001、54sy-2026-002
 # 每次新建时，请手动将 XXX 改为已有文章的最大序号 +1
-slug: "MuvosL-{{ dateFormat "2006" now }}-XXX"
+slug: "54sy-{{ dateFormat "2006" now }}-XXX"
 
 # ===== 文章描述 =====
 # 用于 SEO 描述和社交分享卡片，不填则自动截取正文前几句
@@ -61,7 +61,7 @@ tags:
 # 单独控制是否显示评论
 # comments: true
 
-# 文章作者（不填默认使用全局作者 MuvosL）
+# 文章作者（不填默认使用全局作者 54sy）
 # author: ""
 
 # 文章权重（数字越大越靠前，用于置顶）

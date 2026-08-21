@@ -74,6 +74,14 @@
     {{- range $k, $v := $paginator.Pages.ByDate.Reverse -}}
       {{- partial "post.html" (dict "index" $k "ctx" . "page" $v ) -}}
     {{- end -}}
+  {{- else if eq $sort_config "lastmod" -}}
+    {{- range $k, $v := $paginator.Pages.ByLastmod -}}
+      {{- partial "post.html" (dict "index" $k "ctx" . "page" $v ) -}}
+    {{- end -}}
+  {{- else if eq $sort_config "lastmod-reverse" -}}
+    {{- range $k, $v := $paginator.Pages.ByLastmod.Reverse -}}
+      {{- partial "post.html" (dict "index" $k "ctx" . "page" $v ) -}}
+    {{- end -}}
   {{- else if eq $sort_config "default" -}}
     {{- range $k, $v := $paginator.Pages -}}
       {{- partial "post.html"  (dict "index" $k "ctx" . "page" $v ) -}}

@@ -2,12 +2,13 @@
 title: windows
 description: ""
 date: 2026-07-28T15:01:03+08:00
-lastmod: 2026-07-28T15:15:15+08:00
+lastmod: 2026-08-21T15:19:58+08:00
 draft: false
-slug: MuvosL-2026-002
+slug: 54sy-2026-002
 categories:
   - study
 tags:
+  - 计算机基础
 ---
 一、Windows C盘目录结构概述
 1.C盘，通常是电脑的系统盘，也是Windows操作系统安装的默认位置。

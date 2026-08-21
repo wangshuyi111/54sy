@@ -8,68 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e02c96d70c38b83a",
+            "id": "c7eb8165102700b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "study/Java/index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "631309d9badc8331",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "log/8/14/index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "0bdc28db9c6d34a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "log/15/index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "ce01de0f8cb5d8fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "study/Java/index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "5fa553ff3df125ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "study/mysql/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -77,8 +21,7 @@
               "title": "index"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
     "id": "75ea0d44d267dc00",
@@ -215,31 +158,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study/Windows系统盘下目录及文件详解/index.md",
+                "file": "study/Java/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
-            }
-          },
-          {
-            "id": "3201eddec7ab6190",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "大纲"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,52 +187,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5fa553ff3df125ac",
+  "active": "c7eb8165102700b7",
   "lastOpenFiles": [
-    "study/mysql/images/Pasted image 20260820195412.png",
-    "log/18/index.md",
-    "log/15/index.md",
-    "log/17/index.md",
-    "study/mysql/index.md",
+    "log/260815/index.md",
+    "log/260817/index.md",
+    "log/260818/index.md",
     "study/Java/index.md",
-    "log/18",
-    "study/mysql/images/Pasted image 20260817224542.png",
-    "log/17",
-    "log/8/14/index.md",
-    "log/15",
-    "log/8/未命名.md",
-    "study/Java/images/Pasted image 20260816174505.png",
-    "study/Java/images/Pasted image 20260816173926.png",
-    "study/mysql/images/Pasted image 20260814184313.png",
-    "study/mysql/images/Pasted image 20260814184320.png",
-    "log/8/14",
-    "log/8",
-    "log",
+    "study/mysql/index.md",
     "study/Windows系统盘下目录及文件详解/index.md",
-    "study/Windows系统盘下目录及文件详解.md",
-    "study/mysql/images",
-    "mysql/MySql/mysql.md",
-    "mysql/MySql/images/abe6413ba73af943b07afb578e9922f0.jpg",
-    "study/mysql",
-    "study/MYSQL/index.md",
-    "study/未命名.md",
-    "study/Windows系统盘下目录及文件详解",
-    "study",
-    "study/Java/images/abe6413ba73af943b07afb578e9922f0.jpg",
+    "_tmp_test2/img.png",
+    "_tmp_test2/index.md",
+    "_tmp_test2",
+    "打靶/Raven2/images/Pasted image 20260819160628.png",
+    "漏洞复现/hutool_RCE【CVE-2025-56769】/index.md",
+    "漏洞复现/hutool_RCE【CVE-2025-56769】/images/63e60bc509aa5fcc7cacd00b334f630c.png",
+    "打靶/Webgoat/index.md",
+    "打靶/Raven2/index.md",
+    "打靶/Lampiao/index.md",
+    "渗透项目实操/Raven2/Raven_2.md",
+    "打靶/Raven2",
+    "渗透项目实操/Lampiao/Lampiao.md",
+    "打靶/Lampiao",
+    "打靶/Raven2/images/image.png",
+    "打靶/Raven2/images/image 9.png",
+    "打靶/Raven2/images/image 8.png",
+    "打靶/Raven2/images/image 7.png",
+    "打靶/Raven2/images/image 6.png",
+    "打靶/Raven2/images/image 50.png",
+    "打靶/Raven2/images/image 5.png",
+    "打靶/Raven2/images",
+    "渗透项目实操/Raven2",
+    "打靶/Lampiao/images",
+    "渗透项目实操/Lampiao",
+    "渗透项目实操",
+    "漏洞复现/React&RSC&Next.js 服务器组件漏洞/index.md",
+    "漏洞复现/redis未授权访问漏洞/index.md",
+    "漏洞复现12/redis未授权访问漏洞/redis未授权访问漏洞.md",
+    "漏洞复现/redis未授权访问漏洞",
+    "漏洞复现12/redis未授权访问漏洞/redis未授权访问漏洞.pdf",
+    "漏洞复现12/log4j/log4j.md",
+    "漏洞复现12/huotool_RCE/hutool_RCE【CVE-2025-56769】.md",
+    "漏洞复现/React&RSC&Next.js 服务器组件漏洞/React&RSC&Next.js 服务器组件漏洞.md",
+    "漏洞复现12/永恒之黑/永恒之黑CVE-2020-0796.md",
+    "AI“应用”/AI安全攻防实战全景/index.md",
+    "AI“应用”/ai概念浅知/index.md",
+    "AI“应用”/AI 安全攻防实战全景：从红队演练到智能体时代的防御重建/index.md",
+    "打靶/第一章 应急响应-Linux日志分析/index.md",
     "碎碎念/序言/index.md",
-    "碎碎念/ckjsck/index.md",
-    "的声波传播/ocdbsob/index.md",
-    "我的新的/test/index.md",
-    "碎碎念/青藤/index.md",
-    "玄机靶场/青藤篇/index.md",
-    "碎碎念/青藤篇/index.md",
-    "博客/我的/index.md",
-    "碎碎念/测试/index.md",
-    "碎碎念/我的/index.md",
-    "碎碎念/tttt.md",
-    "碎碎念/test/tets.md",
-    "碎碎念/test/index.md",
-    "碎碎念/obsidian测试/images/Pasted image 20260711031146.png",
-    "碎碎念/images/Pasted image 20260711031146.png"
+    "碎碎念/ckjsck/index.md"
   ]
 }

@@ -1,12 +1,11 @@
 ---
-title: "15"
+title: "260815"
 description: ""
 date: 2026-08-16T20:26:13+08:00
-lastmod: 2026-08-18T22:21:57+08:00
-draft: true
-slug: MuvosL-2026-005
+lastmod: 2026-08-21T15:26:32+08:00
+draft: false
+slug: 54sy-2026-005
 categories:
-  - study
   - log
 tags:
 ---

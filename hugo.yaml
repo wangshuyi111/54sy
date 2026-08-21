@@ -1,5 +1,5 @@
 baseURL: 'https://wangshuyi111.github.io/54sy/'
-title: 'vein'
+title: '54sy'
 locale: 'zh-CN'
 hasCJKLanguage: true
 enableGitInfo: true
@@ -24,3 +24,13 @@ outputFormats:
     isPlainText: true
     mediaType: application/json
     notAlternative: true
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+    endLevel: 4
