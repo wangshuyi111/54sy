@@ -2,7 +2,7 @@
 title: Java
 description: ""
 date: 2026-07-12T22:14:50+08:00
-lastmod: 2026-08-21T17:16:40+08:00
+lastmod: 2026-08-22T18:51:40+08:00
 draft: false
 slug: 54sy-2026-001
 categories:
@@ -257,3 +257,25 @@ class Person {
     }
 }
 ```
+## 2.构造方法
+### 2.1格式
+构造方法的名称就是类名。构造方法的参数没有限制，在方法内部，也可以编写任意语句。但是，和普通方法相比，构造方法没有返回值，调用构造方法，必须用new操作符。
+### 2.2空参构造
+```
+class Person {
+    public Person() {
+    }
+}
+```
+### 2.3有参构造
+```
+public Student(String name, int age, String grade) {  
+    this.name = name;
+    this.age = age;
+    this.grade = grade;  
+}
+```
+## 3.方法重载
+### 3.1定义
+一个类中，功能类似但参数有所不同，成为方法重载Overload
+方法重载的返回值类型一般相同
